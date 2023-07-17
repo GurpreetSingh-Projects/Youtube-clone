@@ -39,7 +39,6 @@ div,p {
 }
 .header {
     display: flex;
-    flex-direction: row;
     align-items: center;
     margin-bottom: 40px;
     justify-content: space-between;
@@ -49,7 +48,7 @@ div,p {
     display: flex;
     height: 22px;
     margin-right: 100px;
-    justify-content: space-between;
+    
 }
 .hamburger-menu {
     margin-left: 16px;
@@ -60,13 +59,12 @@ div,p {
     margin-right: 70px;
     display: flex;
     height: 22px;
-    margin-right: 100px;
+    margin-right: 10px;
     justify-content: space-between;
 }
 .searchbox {
     font-size: 17px;
     margin-top: 0px;
-    width: 330px;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 15px;
@@ -102,9 +100,33 @@ div,p {
 }
 .voice-search-icon {
     border: 0px;
-    height: 25px;
+    height: 24px;
 }
 .right {
-    width: 200px;
-    background-color: aqua;
+    width: 210px;
+    margin-top: 12px;
+    display: flex;
+    height: 22px;
+    justify-content: space-between;
+    align-items: center;
+}
+.upload-icon, .youtube-apps, .notification, .profile {
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border: 0px;
+    border-radius: 50px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.upload-icon-pic, .youtube-apps-icon, .notification-icon {
+    border: 0px;
+    height: 25px;
+    width: 25px;
+}
+.profile, .profile-icon  {
+    margin-top: 1px;
+    border: 0px;
+    height: 35px;
+    border-radius: 30px;
 }
